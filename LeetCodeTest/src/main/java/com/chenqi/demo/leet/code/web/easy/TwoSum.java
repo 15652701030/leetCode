@@ -1,7 +1,7 @@
 package com.chenqi.demo.leet.code.web.easy;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created with IntelliJ IDEA.
@@ -58,6 +58,11 @@ public class TwoSum {
         int target = 14;
         int[] result = twoSum2(nums, target);
         System.out.print(result);
+        List<Integer> list = new Vector<>();
+        List<String> lis1 = new Stack<>();
+        HashSet<String> list1 = new HashSet<>();
+        Map<String, Object> map = new HashMap<>();
+        Map<String ,Object> map1 = new ConcurrentHashMap<>();
     }
 
 
