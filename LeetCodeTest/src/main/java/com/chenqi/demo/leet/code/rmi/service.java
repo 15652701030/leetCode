@@ -12,7 +12,7 @@ import java.rmi.registry.LocateRegistry;
  * @Date: 2018/11/26 22:58
  * To change this template use File | Settings | File Templates.
  */
-public class Service {
+class Service {
     public static void main(String[] args) {
         try {
             HelloService helloService = new HelloService();
